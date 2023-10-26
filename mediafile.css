@@ -1,0 +1,241 @@
+@media screen and (max-width: 991px) {
+    .main-nav img {
+        margin-left: 100px;
+    }
+    .navlinks {
+        flex-basis: 700px;
+    }
+    .content{
+        padding-inline: 40px;
+        margin-left: 60px;
+    }
+    .content h1{
+        font-size: 5rem;
+        line-height: 80px;
+    }
+    .content p{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .details{
+        width: 80%;
+        padding-top: 80px;
+    }
+    .details h2{
+        font-size: 2.2rem;
+    }
+    .details p{
+        font-size: 1rem;
+        line-height: 30px;
+    }
+    .heading{
+        font-size: 1.5rem;
+        padding: 10;
+    }
+    .border{
+        flex-direction: column;
+        height: 100%;
+        gap: 5px;
+    }
+    .cmpny-logo{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cmpny-logo img{
+        width: 80%;
+        margin-top: 30px;
+    }
+    .cmpny-logo p{
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .description{
+        width: 80%;
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    .description p{
+        line-height: 25px;
+    }
+    .footer-head{
+        font-size: 1.5rem;
+    }   
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .main-nav img{
+        margin-left: 60px;
+    }
+    main{
+        padding-block: 20px;
+        margin-top: 40px;
+    }
+    .content{
+        margin-left: 10px;
+        padding-inline: 20px;
+    }
+    .content h1{
+        font-size: 3.2rem;
+        line-height: 50px;
+    }
+    .content p{
+        font-size: 1rem;
+        line-height: 20px;
+    }
+    .header img{
+        width: 35%;
+        margin-right: 30px;
+    }
+    .details{
+        width: 100%;
+        margin-inline: 5%;
+        padding-top: 50px;
+    }
+    .details h2{
+        font-size: 2rem;
+    }
+    .details p{
+        line-height: 25px;
+    }
+    .heading{
+        font-size: 1.2rem;
+    }
+    .card{
+        margin-bottom: 80px;
+    }
+    .card p{
+        line-height: 25px;
+    }
+    .border{
+        width: 80%;
+    }
+    .footer-head{
+        font-size: 1.2rem;
+    } 
+    .navlinks{
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 50px;
+        transition: 0.2s ease-in-out;
+    }
+    .navlinks.active{
+        left: 0;
+    }
+    .navlinks ul{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .nav-toggle{
+        display: block;
+        padding-right: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 479px) {
+    .main-nav img{
+        margin-left: 30px;
+    }
+    main{
+        margin-top: 20px;
+    }
+    .header{
+        flex-direction: column;
+        padding: 0;
+        align-items: flex-start;
+        gap: 10px;
+        margin-inline: 10px;
+        width: 100%;
+    }
+    .header img{
+        width: 60%;
+        margin: 8% 20%;
+        height: 100%;
+    }
+    .about{
+        margin-top: 10px;
+    }
+    .content{
+        padding-inline: 0px;
+    }
+    .content h1{
+        font-size: 3rem;
+    }
+    .content p{
+        width: 90%;      
+    }
+
+    .details{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .details h2{
+       font-size: 1.5rem;
+    }
+    .details p{
+        line-height: 20px;
+        width: 90%;
+    }
+    .portfolio{
+        margin-inline: 5%;
+    }
+    .card {
+        width: 95%;
+    }
+    .box{
+        height: 90%;
+    }
+    .heading{
+        margin-block: 30px;
+    }
+    .card p{
+        line-height: 20px;
+    }
+    .border{
+        flex-direction: column;
+        height: 100%;
+        gap: 5px;
+    }
+    .cmpny-logo img{
+        width: 70%;
+        margin-left: 20%;
+    }
+    .cmpny-logo p{
+        font-size: 0.9rem;
+    }
+    .description a{
+        font-size: 1rem;
+    }
+    .description p{
+        line-height: 20px;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    .border{
+        margin-top: 40px;
+    }
+    .description{
+        margin: 0;
+        width: 90%;
+    }
+    .font {
+        gap: 20px;
+    }
+    .links{
+        padding: 0;
+        font-size: 0.8rem;
+        flex-direction: column;
+    }
+    footer p{
+        font-size: 0.5rem;
+    }
+}
